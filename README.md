@@ -1,7 +1,9 @@
 # purplish
 
 2023 SW프로그래밍 기말 프로젝트로 만든 게임입니다.
+
 pygame-ce, perlin-noise 라이브러리를 사용했습니다.
+
 exe 컴파일할 때 pyinstaller를 사용했습니다.
 
 ## 실행 방법
