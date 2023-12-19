@@ -1,0 +1,16 @@
+폰트: Dalgona | https://dalgona.dev/ | https://neodgm.dalgona.dev/
+배경: Trixie | https://linktr.ee/trixelized | https://trixelized.itch.io/starstring-fields
+타일/데코: Buch | https://opengameart.org/users/buch | https://opengameart.org/content/a-platformer-in-the-forest
+차원문: LetargicDev | https://opengameart.org/users/letargicdev | https://opengameart.org/content/portals
+슬라임: tienlev | https://tienlev.itch.io/ | https://tienlev.itch.io/slime-pixel-set
+슬라임 체력바: Mounir Tohami | https://mounirtohami.itch.io/ | https://mounirtohami.itch.io/pixel-art-gui-elements
+아이템: Shade | https://merchant-shade.itch.io/ | https://merchant-shade.itch.io/16x16-mixed-rpg-icons
+보물상자: Neburov | https://opengameart.org/users/neburov | https://opengameart.org/content/pixel-platformer-tile-set
+화염구: BDragon1727 | https://twitter.com/BlackDragon1727 | https://bdragon1727.itch.io/free-effect-and-bullet-16x16
+배경음악: alkakrab | https://alkakrab.itch.io/ | https://alkakrab.itch.io/free-12-tracks-pixel-rpg-game-music-pack
+sfx:
+FilmCow | https://www.filmcow.com/ | https://filmcow.itch.io/filmcow-sfx
+rgbin | https://rgbin.itch.io/ | https://rgbin.itch.io/knight-monsters-sounds-pack
+Jalastram | https://jalastram.itch.io/ | https://jalastram.itch.io/8-bit-jump-sound-effects
+VOiD1 Gaming | https://void1gaming.itch.io/ | https://void1gaming.itch.io/halftone-sound-effects-pack-lite
+rubberduck | https://opengameart.org/users/rubberduck | https://opengameart.org/content/40-cc0-water-splash-slime-sfx
