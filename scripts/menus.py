@@ -401,6 +401,8 @@ class HelpMenu(Menu):
         for notice in self.notice_pages.values():
             closed.append(notice.check_close(game.events))
             done.append(notice.transition_vertical())
+            if self.side_transition:
+                transition_check.append(notice.transition_horizontal())
         if any(closed):
             self.game.sfx_manager.play('paper')
             self.get_current_notice().target_y = self.screen.get_height()
@@ -414,8 +416,7 @@ class HelpMenu(Menu):
                 self.game.help_menu = False
             else:
                 game.p_m.display_help = False
-            if self.side_transition:
-                    transition_check.append(notice.transition_horizontal())
+
         if transition_check.count(True) == len(self.notice_pages):
             self.side_transition = False
     
@@ -970,5 +971,3 @@ class Hud:
             self.draw_dash_hud(display)
             
             
-       
-
