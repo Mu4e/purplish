@@ -104,8 +104,9 @@ class Game:
         self.screenshake = 0
 
         savefiles = check_existing_save(SAVES_DIR, SAVE_MAP_NAME, SAVE_DATA_NAME)
-        if savefiles[1][1]:
-            self.load_save_data(SAVES_DIR, SAVE_DATA_NAME)
+        if savefiles:
+            if savefiles[1][1]:
+                self.load_save_data(SAVES_DIR, SAVE_DATA_NAME)
 
         self.enemies = OffsetSpriteGroup()
         self.chests = OffsetSpriteGroup()
