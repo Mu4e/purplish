@@ -36,7 +36,7 @@ exe 컴파일할 때 pyinstaller를 사용했습니다.
 - 터미널을 열고 mgame.py가 있는 폴더로 이동한 후 아래 내용을 입력합니다.
 
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 설치가 완료되면 mgame.py를 실행하시면 됩니다.
