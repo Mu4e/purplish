@@ -76,8 +76,11 @@ def load_tiles(path) -> dict:
     return tiles_dict
 
 def check_existing_save(save_folder, map_fn, data_fn):
-    check_list = [os.path.join(save_folder, map_fn), os.path.join(save_folder, data_fn)]
-    return [(fp, os.path.exists(fp)) for fp in check_list]
+    if os.path.exists(save_folder):
+        check_list = [os.path.join(save_folder, map_fn), os.path.join(save_folder, data_fn)]
+        return [(fp, os.path.exists(fp)) for fp in check_list]
+    else:
+        os.mkdir(save_folder)
 
 
 def save_current_map(game, save_dir, fn):
